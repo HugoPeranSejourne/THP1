@@ -1,0 +1,112 @@
+body {
+  font-family: arial,sans-serif;
+}
+
+.menu {
+  top: 16px;
+  text-align: right;
+}
+
+.menu2 {
+  padding-right: 15px;
+}
+
+.gmail {
+  display: inline-block;
+  color: rgba(0,0,0,0.87);
+  padding: 5px;
+}
+
+.button {
+  border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.doodle {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.step1 {
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 482px;
+}
+
+.step2 {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.step3 {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.step3.1 {
+  margin: auto;
+}
+
+.step3.2 {
+  margin-top: 3px;
+  color: #9AA0A6;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.boutonsmaster {
+  padding: 15px;
+}
+
+.boutons {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+}
